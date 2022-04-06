@@ -1,0 +1,1070 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C308B23127F821DC00E0CD66 /* SimuladorSwitches.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308B23027F821DC00E0CD66 /* SimuladorSwitches.swift */; };
+		C308B23227F821DC00E0CD66 /* SimuladorSwitches.swift in Sources */ = {isa = PBXBuildFile; fileRef = C308B23027F821DC00E0CD66 /* SimuladorSwitches.swift */; };
+		C34B3C3427F20EE700FE86E5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C3327F20EE700FE86E5 /* Tests_iOS.swift */; };
+		C34B3C3627F20EE700FE86E5 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C3527F20EE700FE86E5 /* Tests_iOSLaunchTests.swift */; };
+		C34B3C4027F20EE700FE86E5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C3F27F20EE700FE86E5 /* Tests_macOS.swift */; };
+		C34B3C4227F20EE700FE86E5 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C4127F20EE700FE86E5 /* Tests_macOSLaunchTests.swift */; };
+		C34B3C4327F20EE700FE86E5 /* WaybankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C1B27F20EE500FE86E5 /* WaybankApp.swift */; };
+		C34B3C4427F20EE700FE86E5 /* WaybankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C1B27F20EE500FE86E5 /* WaybankApp.swift */; };
+		C34B3C4527F20EE700FE86E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C1C27F20EE500FE86E5 /* ContentView.swift */; };
+		C34B3C4627F20EE700FE86E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C1C27F20EE500FE86E5 /* ContentView.swift */; };
+		C34B3C4727F20EE700FE86E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34B3C1D27F20EE700FE86E5 /* Assets.xcassets */; };
+		C34B3C4827F20EE700FE86E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34B3C1D27F20EE700FE86E5 /* Assets.xcassets */; };
+		C34B3C5927F2104000FE86E5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C5827F2104000FE86E5 /* FirebaseAnalytics */; };
+		C34B3C5B27F2104000FE86E5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C5A27F2104000FE86E5 /* FirebaseAuth */; };
+		C34B3C5D27F2104000FE86E5 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C5C27F2104000FE86E5 /* FirebaseDatabase */; };
+		C34B3C5F27F2104000FE86E5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C5E27F2104000FE86E5 /* FirebaseFirestore */; };
+		C34B3C6127F2104000FE86E5 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C6027F2104000FE86E5 /* FirebaseFirestoreCombine-Community */; };
+		C34B3C6327F2104000FE86E5 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C6227F2104000FE86E5 /* FirebaseFunctionsCombine-Community */; };
+		C34B3C6527F2104000FE86E5 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C6427F2104000FE86E5 /* FirebaseInstallations */; };
+		C34B3C6727F2104000FE86E5 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C6627F2104000FE86E5 /* FirebasePerformance */; };
+		C34B3C6927F2104000FE86E5 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C6827F2104000FE86E5 /* FirebaseStorage */; };
+		C34B3C6C27F210C900FE86E5 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C6B27F210C900FE86E5 /* GoogleSignIn */; };
+		C34B3C7227F2145500FE86E5 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C34B3C7127F2145500FE86E5 /* FirebaseFirestoreSwift-Beta */; };
+		C34B3C7527F214C800FE86E5 /* FirebaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C7427F214C800FE86E5 /* FirebaseViewModel.swift */; };
+		C34B3C7627F214C800FE86E5 /* FirebaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C7427F214C800FE86E5 /* FirebaseViewModel.swift */; };
+		C34B3C7927F2185600FE86E5 /* WaybankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C7827F2185600FE86E5 /* WaybankModel.swift */; };
+		C34B3C7A27F2185600FE86E5 /* WaybankModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C7827F2185600FE86E5 /* WaybankModel.swift */; };
+		C34B3C7C27F22DDB00FE86E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C7B27F22DDB00FE86E5 /* AppDelegate.swift */; };
+		C34B3C7D27F22DDB00FE86E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C7B27F22DDB00FE86E5 /* AppDelegate.swift */; };
+		C34B3C8027F22E2000FE86E5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C7F27F22E2000FE86E5 /* Home.swift */; };
+		C34B3C8127F22E2000FE86E5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C7F27F22E2000FE86E5 /* Home.swift */; };
+		C34B3C8327F22E2900FE86E5 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C8227F22E2900FE86E5 /* Dashboard.swift */; };
+		C34B3C8427F22E2900FE86E5 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C8227F22E2900FE86E5 /* Dashboard.swift */; };
+		C34B3C8627F22ED800FE86E5 /* InicioSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C8527F22ED800FE86E5 /* InicioSesion.swift */; };
+		C34B3C8727F22ED800FE86E5 /* InicioSesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B3C8527F22ED800FE86E5 /* InicioSesion.swift */; };
+		C350BFFD27F9CFB7001074F0 /* PruebaDePeticiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = C350BFFC27F9CFB7001074F0 /* PruebaDePeticiones.swift */; };
+		C350BFFE27F9CFB7001074F0 /* PruebaDePeticiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = C350BFFC27F9CFB7001074F0 /* PruebaDePeticiones.swift */; };
+		C350C00027F9DB8A001074F0 /* Contratos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C350BFFF27F9DB8A001074F0 /* Contratos.swift */; };
+		C350C00127F9DB8A001074F0 /* Contratos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C350BFFF27F9DB8A001074F0 /* Contratos.swift */; };
+		C378A38027FCA08C00E0021D /* RegistroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378A37F27FCA08C00E0021D /* RegistroModel.swift */; };
+		C378A38127FCA08C00E0021D /* RegistroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378A37F27FCA08C00E0021D /* RegistroModel.swift */; };
+		C378A38327FCA1EB00E0021D /* RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378A38227FCA1EB00E0021D /* RegistroView.swift */; };
+		C378A38427FCA1EB00E0021D /* RegistroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C378A38227FCA1EB00E0021D /* RegistroView.swift */; };
+		C380D47127F3952E001CACC2 /* RegistrarUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D47027F3952E001CACC2 /* RegistrarUsuario.swift */; };
+		C380D47227F3952E001CACC2 /* RegistrarUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D47027F3952E001CACC2 /* RegistrarUsuario.swift */; };
+		C38529AF27F4DED300821EA3 /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38529AE27F4DED300821EA3 /* FirebaseModel.swift */; };
+		C38529B027F4DED300821EA3 /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38529AE27F4DED300821EA3 /* FirebaseModel.swift */; };
+		C3932D9E27F36037007A07E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3932D9D27F36037007A07E4 /* GoogleService-Info.plist */; };
+		C3932D9F27F36037007A07E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3932D9D27F36037007A07E4 /* GoogleService-Info.plist */; };
+		C3932DA027F36037007A07E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3932D9D27F36037007A07E4 /* GoogleService-Info.plist */; };
+		C3932DA127F36037007A07E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3932D9D27F36037007A07E4 /* GoogleService-Info.plist */; };
+		C3D6556927FB7F0700DDAD65 /* SeguridadLegal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6556827FB7F0700DDAD65 /* SeguridadLegal.swift */; };
+		C3D6556A27FB7F0700DDAD65 /* SeguridadLegal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6556827FB7F0700DDAD65 /* SeguridadLegal.swift */; };
+		C3D6556C27FC9E7800DDAD65 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6556B27FC9E7800DDAD65 /* LoginViewModel.swift */; };
+		C3D6556D27FC9E7800DDAD65 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D6556B27FC9E7800DDAD65 /* LoginViewModel.swift */; };
+		C3D9682627F88346009E6A72 /* ResumenContrato.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D9682527F88346009E6A72 /* ResumenContrato.swift */; };
+		C3D9682727F88346009E6A72 /* ResumenContrato.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D9682527F88346009E6A72 /* ResumenContrato.swift */; };
+		C3F5CD8E27F62D040088CCB4 /* extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD8D27F62D040088CCB4 /* extensiones.swift */; };
+		C3F5CD8F27F62D040088CCB4 /* extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD8D27F62D040088CCB4 /* extensiones.swift */; };
+		C3F5CD9127F62D770088CCB4 /* EmailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9027F62D770088CCB4 /* EmailModel.swift */; };
+		C3F5CD9227F62D770088CCB4 /* EmailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9027F62D770088CCB4 /* EmailModel.swift */; };
+		C3F5CD9427F62DAF0088CCB4 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9327F62DAF0088CCB4 /* EmailView.swift */; };
+		C3F5CD9527F62DAF0088CCB4 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9327F62DAF0088CCB4 /* EmailView.swift */; };
+		C3F5CD9727F62DCF0088CCB4 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9627F62DCF0088CCB4 /* Menu.swift */; };
+		C3F5CD9827F62DCF0088CCB4 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9627F62DCF0088CCB4 /* Menu.swift */; };
+		C3F5CD9A27F62E070088CCB4 /* EstructuraGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9927F62E070088CCB4 /* EstructuraGlobal.swift */; };
+		C3F5CD9B27F62E070088CCB4 /* EstructuraGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9927F62E070088CCB4 /* EstructuraGlobal.swift */; };
+		C3F5CD9D27F62E540088CCB4 /* Simulador.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9C27F62E540088CCB4 /* Simulador.swift */; };
+		C3F5CD9E27F62E540088CCB4 /* Simulador.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9C27F62E540088CCB4 /* Simulador.swift */; };
+		C3F5CDA027F62E760088CCB4 /* Soporte.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9F27F62E760088CCB4 /* Soporte.swift */; };
+		C3F5CDA127F62E760088CCB4 /* Soporte.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CD9F27F62E760088CCB4 /* Soporte.swift */; };
+		C3F5CDA327F62F390088CCB4 /* Ajustes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDA227F62F390088CCB4 /* Ajustes.swift */; };
+		C3F5CDA427F62F390088CCB4 /* Ajustes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDA227F62F390088CCB4 /* Ajustes.swift */; };
+		C3F5CDA627F62FE50088CCB4 /* SignGooglein.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDA527F62FE50088CCB4 /* SignGooglein.swift */; };
+		C3F5CDA727F62FE50088CCB4 /* SignGooglein.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDA527F62FE50088CCB4 /* SignGooglein.swift */; };
+		C3F5CDA927F630130088CCB4 /* WebViewContratos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDA827F630130088CCB4 /* WebViewContratos.swift */; };
+		C3F5CDAA27F630130088CCB4 /* WebViewContratos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDA827F630130088CCB4 /* WebViewContratos.swift */; };
+		C3F5CDAC27F6306A0088CCB4 /* Pago.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDAB27F6306A0088CCB4 /* Pago.swift */; };
+		C3F5CDAD27F6306A0088CCB4 /* Pago.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDAB27F6306A0088CCB4 /* Pago.swift */; };
+		C3F5CDAF27F630890088CCB4 /* Mibanco.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDAE27F630890088CCB4 /* Mibanco.swift */; };
+		C3F5CDB027F630890088CCB4 /* Mibanco.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDAE27F630890088CCB4 /* Mibanco.swift */; };
+		C3F5CDB227F633690088CCB4 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDB127F633690088CCB4 /* AuthenticationViewModel.swift */; };
+		C3F5CDB327F633690088CCB4 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDB127F633690088CCB4 /* AuthenticationViewModel.swift */; };
+		C3F5CDB527F74F760088CCB4 /* SimuladorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDB427F74F760088CCB4 /* SimuladorModel.swift */; };
+		C3F5CDB627F74F760088CCB4 /* SimuladorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDB427F74F760088CCB4 /* SimuladorModel.swift */; };
+		C3F5CDB927F750220088CCB4 /* SimuladorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDB827F750220088CCB4 /* SimuladorViewModel.swift */; };
+		C3F5CDBA27F750220088CCB4 /* SimuladorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F5CDB827F750220088CCB4 /* SimuladorViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C34B3C3027F20EE700FE86E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34B3C1627F20EE500FE86E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34B3C2127F20EE700FE86E5;
+			remoteInfo = "Waybank (iOS)";
+		};
+		C34B3C3C27F20EE700FE86E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34B3C1627F20EE500FE86E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34B3C2727F20EE700FE86E5;
+			remoteInfo = "Waybank (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C308B23027F821DC00E0CD66 /* SimuladorSwitches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimuladorSwitches.swift; sourceTree = "<group>"; };
+		C34B3C1B27F20EE500FE86E5 /* WaybankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaybankApp.swift; sourceTree = "<group>"; };
+		C34B3C1C27F20EE500FE86E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C34B3C1D27F20EE700FE86E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C34B3C2227F20EE700FE86E5 /* Waybank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waybank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34B3C2827F20EE700FE86E5 /* Waybank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waybank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34B3C2A27F20EE700FE86E5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C34B3C2F27F20EE700FE86E5 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34B3C3327F20EE700FE86E5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		C34B3C3527F20EE700FE86E5 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		C34B3C3B27F20EE700FE86E5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34B3C3F27F20EE700FE86E5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		C34B3C4127F20EE700FE86E5 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		C34B3C7427F214C800FE86E5 /* FirebaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewModel.swift; sourceTree = "<group>"; };
+		C34B3C7827F2185600FE86E5 /* WaybankModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaybankModel.swift; sourceTree = "<group>"; };
+		C34B3C7B27F22DDB00FE86E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C34B3C7F27F22E2000FE86E5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C34B3C8227F22E2900FE86E5 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		C34B3C8527F22ED800FE86E5 /* InicioSesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioSesion.swift; sourceTree = "<group>"; };
+		C350BFFC27F9CFB7001074F0 /* PruebaDePeticiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaDePeticiones.swift; sourceTree = "<group>"; };
+		C350BFFF27F9DB8A001074F0 /* Contratos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contratos.swift; sourceTree = "<group>"; };
+		C378A37F27FCA08C00E0021D /* RegistroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroModel.swift; sourceTree = "<group>"; };
+		C378A38227FCA1EB00E0021D /* RegistroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroView.swift; sourceTree = "<group>"; };
+		C380D47027F3952E001CACC2 /* RegistrarUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarUsuario.swift; sourceTree = "<group>"; };
+		C38529AE27F4DED300821EA3 /* FirebaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
+		C38529B127F4F36500821EA3 /* Para pruebas.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Para pruebas.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C3932D9D27F36037007A07E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3932DA227F37033007A07E4 /* Waybank (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Waybank (iOS).entitlements"; sourceTree = "<group>"; };
+		C3932DA327F37039007A07E4 /* Waybank--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Waybank--iOS--Info.plist"; sourceTree = "<group>"; };
+		C3D6556827FB7F0700DDAD65 /* SeguridadLegal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguridadLegal.swift; sourceTree = "<group>"; };
+		C3D6556B27FC9E7800DDAD65 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C3D9682527F88346009E6A72 /* ResumenContrato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumenContrato.swift; sourceTree = "<group>"; };
+		C3F5CD8D27F62D040088CCB4 /* extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensiones.swift; sourceTree = "<group>"; };
+		C3F5CD9027F62D770088CCB4 /* EmailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailModel.swift; sourceTree = "<group>"; };
+		C3F5CD9327F62DAF0088CCB4 /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		C3F5CD9627F62DCF0088CCB4 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C3F5CD9927F62E070088CCB4 /* EstructuraGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstructuraGlobal.swift; sourceTree = "<group>"; };
+		C3F5CD9C27F62E540088CCB4 /* Simulador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simulador.swift; sourceTree = "<group>"; };
+		C3F5CD9F27F62E760088CCB4 /* Soporte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soporte.swift; sourceTree = "<group>"; };
+		C3F5CDA227F62F390088CCB4 /* Ajustes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ajustes.swift; sourceTree = "<group>"; };
+		C3F5CDA527F62FE50088CCB4 /* SignGooglein.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignGooglein.swift; sourceTree = "<group>"; };
+		C3F5CDA827F630130088CCB4 /* WebViewContratos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContratos.swift; sourceTree = "<group>"; };
+		C3F5CDAB27F6306A0088CCB4 /* Pago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pago.swift; sourceTree = "<group>"; };
+		C3F5CDAE27F630890088CCB4 /* Mibanco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mibanco.swift; sourceTree = "<group>"; };
+		C3F5CDB127F633690088CCB4 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		C3F5CDB427F74F760088CCB4 /* SimuladorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimuladorModel.swift; sourceTree = "<group>"; };
+		C3F5CDB827F750220088CCB4 /* SimuladorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimuladorViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34B3C1F27F20EE700FE86E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34B3C5D27F2104000FE86E5 /* FirebaseDatabase in Frameworks */,
+				C34B3C6527F2104000FE86E5 /* FirebaseInstallations in Frameworks */,
+				C34B3C6927F2104000FE86E5 /* FirebaseStorage in Frameworks */,
+				C34B3C5F27F2104000FE86E5 /* FirebaseFirestore in Frameworks */,
+				C34B3C7227F2145500FE86E5 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				C34B3C5927F2104000FE86E5 /* FirebaseAnalytics in Frameworks */,
+				C34B3C6C27F210C900FE86E5 /* GoogleSignIn in Frameworks */,
+				C34B3C6127F2104000FE86E5 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				C34B3C5B27F2104000FE86E5 /* FirebaseAuth in Frameworks */,
+				C34B3C6727F2104000FE86E5 /* FirebasePerformance in Frameworks */,
+				C34B3C6327F2104000FE86E5 /* FirebaseFunctionsCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34B3C2527F20EE700FE86E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34B3C2C27F20EE700FE86E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34B3C3827F20EE700FE86E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C34B3C1527F20EE500FE86E5 = {
+			isa = PBXGroup;
+			children = (
+				C3932DA327F37039007A07E4 /* Waybank--iOS--Info.plist */,
+				C3932DA227F37033007A07E4 /* Waybank (iOS).entitlements */,
+				C34B3C1A27F20EE500FE86E5 /* Shared */,
+				C34B3C2927F20EE700FE86E5 /* macOS */,
+				C34B3C3227F20EE700FE86E5 /* Tests iOS */,
+				C34B3C3E27F20EE700FE86E5 /* Tests macOS */,
+				C34B3C2327F20EE700FE86E5 /* Products */,
+				C34B3C7027F2145500FE86E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C34B3C1A27F20EE500FE86E5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C38529B127F4F36500821EA3 /* Para pruebas.playground */,
+				C34B3C1B27F20EE500FE86E5 /* WaybankApp.swift */,
+				C34B3C7B27F22DDB00FE86E5 /* AppDelegate.swift */,
+				C34B3C1C27F20EE500FE86E5 /* ContentView.swift */,
+				C3F5CD9927F62E070088CCB4 /* EstructuraGlobal.swift */,
+				C3932D9D27F36037007A07E4 /* GoogleService-Info.plist */,
+				C34B3C7E27F22E0600FE86E5 /* Vistas */,
+				C34B3C7727F2183500FE86E5 /* Model */,
+				C3F5CDB727F750080088CCB4 /* ViewModel */,
+				C34B3C7327F2149800FE86E5 /* Autentificacion */,
+				C34B3C1D27F20EE700FE86E5 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C34B3C2327F20EE700FE86E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34B3C2227F20EE700FE86E5 /* Waybank.app */,
+				C34B3C2827F20EE700FE86E5 /* Waybank.app */,
+				C34B3C2F27F20EE700FE86E5 /* Tests iOS.xctest */,
+				C34B3C3B27F20EE700FE86E5 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34B3C2927F20EE700FE86E5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C34B3C2A27F20EE700FE86E5 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C34B3C3227F20EE700FE86E5 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C34B3C3327F20EE700FE86E5 /* Tests_iOS.swift */,
+				C34B3C3527F20EE700FE86E5 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		C34B3C3E27F20EE700FE86E5 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C34B3C3F27F20EE700FE86E5 /* Tests_macOS.swift */,
+				C34B3C4127F20EE700FE86E5 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		C34B3C7027F2145500FE86E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C34B3C7327F2149800FE86E5 /* Autentificacion */ = {
+			isa = PBXGroup;
+			children = (
+				C3F5CDB127F633690088CCB4 /* AuthenticationViewModel.swift */,
+				C3F5CD8D27F62D040088CCB4 /* extensiones.swift */,
+				C3F5CDA527F62FE50088CCB4 /* SignGooglein.swift */,
+				C3D6556B27FC9E7800DDAD65 /* LoginViewModel.swift */,
+			);
+			path = Autentificacion;
+			sourceTree = "<group>";
+		};
+		C34B3C7727F2183500FE86E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C34B3C7827F2185600FE86E5 /* WaybankModel.swift */,
+				C38529AE27F4DED300821EA3 /* FirebaseModel.swift */,
+				C3F5CD9027F62D770088CCB4 /* EmailModel.swift */,
+				C3F5CDB427F74F760088CCB4 /* SimuladorModel.swift */,
+				C378A37F27FCA08C00E0021D /* RegistroModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C34B3C7E27F22E0600FE86E5 /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				C3F5CD9627F62DCF0088CCB4 /* Menu.swift */,
+				C34B3C7F27F22E2000FE86E5 /* Home.swift */,
+				C380D47027F3952E001CACC2 /* RegistrarUsuario.swift */,
+				C34B3C8527F22ED800FE86E5 /* InicioSesion.swift */,
+				C34B3C8227F22E2900FE86E5 /* Dashboard.swift */,
+				C3F5CD9C27F62E540088CCB4 /* Simulador.swift */,
+				C3F5CD9F27F62E760088CCB4 /* Soporte.swift */,
+				C3F5CD9327F62DAF0088CCB4 /* EmailView.swift */,
+				C3F5CDA227F62F390088CCB4 /* Ajustes.swift */,
+				C3F5CDA827F630130088CCB4 /* WebViewContratos.swift */,
+				C350BFFF27F9DB8A001074F0 /* Contratos.swift */,
+				C3F5CDAE27F630890088CCB4 /* Mibanco.swift */,
+				C3F5CDAB27F6306A0088CCB4 /* Pago.swift */,
+				C3D9682527F88346009E6A72 /* ResumenContrato.swift */,
+				C350BFFC27F9CFB7001074F0 /* PruebaDePeticiones.swift */,
+				C3D6556827FB7F0700DDAD65 /* SeguridadLegal.swift */,
+				C378A38227FCA1EB00E0021D /* RegistroView.swift */,
+			);
+			path = Vistas;
+			sourceTree = "<group>";
+		};
+		C3F5CDB727F750080088CCB4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3F5CDB827F750220088CCB4 /* SimuladorViewModel.swift */,
+				C308B23027F821DC00E0CD66 /* SimuladorSwitches.swift */,
+				C34B3C7427F214C800FE86E5 /* FirebaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34B3C2127F20EE700FE86E5 /* Waybank (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34B3C4B27F20EE700FE86E5 /* Build configuration list for PBXNativeTarget "Waybank (iOS)" */;
+			buildPhases = (
+				C34B3C1E27F20EE700FE86E5 /* Sources */,
+				C34B3C1F27F20EE700FE86E5 /* Frameworks */,
+				C34B3C2027F20EE700FE86E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Waybank (iOS)";
+			packageProductDependencies = (
+				C34B3C5827F2104000FE86E5 /* FirebaseAnalytics */,
+				C34B3C5A27F2104000FE86E5 /* FirebaseAuth */,
+				C34B3C5C27F2104000FE86E5 /* FirebaseDatabase */,
+				C34B3C5E27F2104000FE86E5 /* FirebaseFirestore */,
+				C34B3C6027F2104000FE86E5 /* FirebaseFirestoreCombine-Community */,
+				C34B3C6227F2104000FE86E5 /* FirebaseFunctionsCombine-Community */,
+				C34B3C6427F2104000FE86E5 /* FirebaseInstallations */,
+				C34B3C6627F2104000FE86E5 /* FirebasePerformance */,
+				C34B3C6827F2104000FE86E5 /* FirebaseStorage */,
+				C34B3C6B27F210C900FE86E5 /* GoogleSignIn */,
+				C34B3C7127F2145500FE86E5 /* FirebaseFirestoreSwift-Beta */,
+			);
+			productName = "Waybank (iOS)";
+			productReference = C34B3C2227F20EE700FE86E5 /* Waybank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C34B3C2727F20EE700FE86E5 /* Waybank (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34B3C4E27F20EE700FE86E5 /* Build configuration list for PBXNativeTarget "Waybank (macOS)" */;
+			buildPhases = (
+				C34B3C2427F20EE700FE86E5 /* Sources */,
+				C34B3C2527F20EE700FE86E5 /* Frameworks */,
+				C34B3C2627F20EE700FE86E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Waybank (macOS)";
+			productName = "Waybank (macOS)";
+			productReference = C34B3C2827F20EE700FE86E5 /* Waybank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C34B3C2E27F20EE700FE86E5 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34B3C5127F20EE700FE86E5 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				C34B3C2B27F20EE700FE86E5 /* Sources */,
+				C34B3C2C27F20EE700FE86E5 /* Frameworks */,
+				C34B3C2D27F20EE700FE86E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34B3C3127F20EE700FE86E5 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = C34B3C2F27F20EE700FE86E5 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C34B3C3A27F20EE700FE86E5 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34B3C5427F20EE700FE86E5 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				C34B3C3727F20EE700FE86E5 /* Sources */,
+				C34B3C3827F20EE700FE86E5 /* Frameworks */,
+				C34B3C3927F20EE700FE86E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34B3C3D27F20EE700FE86E5 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = C34B3C3B27F20EE700FE86E5 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34B3C1627F20EE500FE86E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C34B3C2127F20EE700FE86E5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C34B3C2727F20EE700FE86E5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C34B3C2E27F20EE700FE86E5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C34B3C2127F20EE700FE86E5;
+					};
+					C34B3C3A27F20EE700FE86E5 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C34B3C2727F20EE700FE86E5;
+					};
+				};
+			};
+			buildConfigurationList = C34B3C1927F20EE500FE86E5 /* Build configuration list for PBXProject "Waybank" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C34B3C1527F20EE500FE86E5;
+			packageReferences = (
+				C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C34B3C6A27F210C900FE86E5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = C34B3C2327F20EE700FE86E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34B3C2127F20EE700FE86E5 /* Waybank (iOS) */,
+				C34B3C2727F20EE700FE86E5 /* Waybank (macOS) */,
+				C34B3C2E27F20EE700FE86E5 /* Tests iOS */,
+				C34B3C3A27F20EE700FE86E5 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C34B3C2027F20EE700FE86E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34B3C4727F20EE700FE86E5 /* Assets.xcassets in Resources */,
+				C3932D9E27F36037007A07E4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34B3C2627F20EE700FE86E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34B3C4827F20EE700FE86E5 /* Assets.xcassets in Resources */,
+				C3932D9F27F36037007A07E4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34B3C2D27F20EE700FE86E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3932DA027F36037007A07E4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34B3C3927F20EE700FE86E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3932DA127F36037007A07E4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34B3C1E27F20EE700FE86E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F5CD9427F62DAF0088CCB4 /* EmailView.swift in Sources */,
+				C34B3C4527F20EE700FE86E5 /* ContentView.swift in Sources */,
+				C3F5CDAC27F6306A0088CCB4 /* Pago.swift in Sources */,
+				C3F5CDAF27F630890088CCB4 /* Mibanco.swift in Sources */,
+				C3F5CD9A27F62E070088CCB4 /* EstructuraGlobal.swift in Sources */,
+				C350C00027F9DB8A001074F0 /* Contratos.swift in Sources */,
+				C3F5CD9727F62DCF0088CCB4 /* Menu.swift in Sources */,
+				C34B3C8627F22ED800FE86E5 /* InicioSesion.swift in Sources */,
+				C34B3C4327F20EE700FE86E5 /* WaybankApp.swift in Sources */,
+				C3F5CDB527F74F760088CCB4 /* SimuladorModel.swift in Sources */,
+				C3F5CDB227F633690088CCB4 /* AuthenticationViewModel.swift in Sources */,
+				C34B3C7527F214C800FE86E5 /* FirebaseViewModel.swift in Sources */,
+				C3D6556927FB7F0700DDAD65 /* SeguridadLegal.swift in Sources */,
+				C3F5CDA927F630130088CCB4 /* WebViewContratos.swift in Sources */,
+				C378A38027FCA08C00E0021D /* RegistroModel.swift in Sources */,
+				C308B23127F821DC00E0CD66 /* SimuladorSwitches.swift in Sources */,
+				C38529AF27F4DED300821EA3 /* FirebaseModel.swift in Sources */,
+				C350BFFD27F9CFB7001074F0 /* PruebaDePeticiones.swift in Sources */,
+				C3D6556C27FC9E7800DDAD65 /* LoginViewModel.swift in Sources */,
+				C34B3C7C27F22DDB00FE86E5 /* AppDelegate.swift in Sources */,
+				C3F5CDA327F62F390088CCB4 /* Ajustes.swift in Sources */,
+				C3F5CDB927F750220088CCB4 /* SimuladorViewModel.swift in Sources */,
+				C3F5CDA027F62E760088CCB4 /* Soporte.swift in Sources */,
+				C3D9682627F88346009E6A72 /* ResumenContrato.swift in Sources */,
+				C378A38327FCA1EB00E0021D /* RegistroView.swift in Sources */,
+				C34B3C8027F22E2000FE86E5 /* Home.swift in Sources */,
+				C3F5CD9D27F62E540088CCB4 /* Simulador.swift in Sources */,
+				C3F5CDA627F62FE50088CCB4 /* SignGooglein.swift in Sources */,
+				C34B3C8327F22E2900FE86E5 /* Dashboard.swift in Sources */,
+				C3F5CD9127F62D770088CCB4 /* EmailModel.swift in Sources */,
+				C380D47127F3952E001CACC2 /* RegistrarUsuario.swift in Sources */,
+				C3F5CD8E27F62D040088CCB4 /* extensiones.swift in Sources */,
+				C34B3C7927F2185600FE86E5 /* WaybankModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34B3C2427F20EE700FE86E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F5CD9527F62DAF0088CCB4 /* EmailView.swift in Sources */,
+				C34B3C4627F20EE700FE86E5 /* ContentView.swift in Sources */,
+				C3F5CDAD27F6306A0088CCB4 /* Pago.swift in Sources */,
+				C3F5CDB027F630890088CCB4 /* Mibanco.swift in Sources */,
+				C3F5CD9B27F62E070088CCB4 /* EstructuraGlobal.swift in Sources */,
+				C350C00127F9DB8A001074F0 /* Contratos.swift in Sources */,
+				C3F5CD9827F62DCF0088CCB4 /* Menu.swift in Sources */,
+				C34B3C8727F22ED800FE86E5 /* InicioSesion.swift in Sources */,
+				C34B3C4427F20EE700FE86E5 /* WaybankApp.swift in Sources */,
+				C3F5CDB627F74F760088CCB4 /* SimuladorModel.swift in Sources */,
+				C3F5CDB327F633690088CCB4 /* AuthenticationViewModel.swift in Sources */,
+				C34B3C7627F214C800FE86E5 /* FirebaseViewModel.swift in Sources */,
+				C3D6556A27FB7F0700DDAD65 /* SeguridadLegal.swift in Sources */,
+				C3F5CDAA27F630130088CCB4 /* WebViewContratos.swift in Sources */,
+				C378A38127FCA08C00E0021D /* RegistroModel.swift in Sources */,
+				C308B23227F821DC00E0CD66 /* SimuladorSwitches.swift in Sources */,
+				C38529B027F4DED300821EA3 /* FirebaseModel.swift in Sources */,
+				C350BFFE27F9CFB7001074F0 /* PruebaDePeticiones.swift in Sources */,
+				C3D6556D27FC9E7800DDAD65 /* LoginViewModel.swift in Sources */,
+				C34B3C7D27F22DDB00FE86E5 /* AppDelegate.swift in Sources */,
+				C3F5CDA427F62F390088CCB4 /* Ajustes.swift in Sources */,
+				C3F5CDBA27F750220088CCB4 /* SimuladorViewModel.swift in Sources */,
+				C3F5CDA127F62E760088CCB4 /* Soporte.swift in Sources */,
+				C3D9682727F88346009E6A72 /* ResumenContrato.swift in Sources */,
+				C378A38427FCA1EB00E0021D /* RegistroView.swift in Sources */,
+				C34B3C8127F22E2000FE86E5 /* Home.swift in Sources */,
+				C3F5CD9E27F62E540088CCB4 /* Simulador.swift in Sources */,
+				C3F5CDA727F62FE50088CCB4 /* SignGooglein.swift in Sources */,
+				C34B3C8427F22E2900FE86E5 /* Dashboard.swift in Sources */,
+				C3F5CD9227F62D770088CCB4 /* EmailModel.swift in Sources */,
+				C380D47227F3952E001CACC2 /* RegistrarUsuario.swift in Sources */,
+				C3F5CD8F27F62D040088CCB4 /* extensiones.swift in Sources */,
+				C34B3C7A27F2185600FE86E5 /* WaybankModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34B3C2B27F20EE700FE86E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34B3C3627F20EE700FE86E5 /* Tests_iOSLaunchTests.swift in Sources */,
+				C34B3C3427F20EE700FE86E5 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34B3C3727F20EE700FE86E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34B3C4227F20EE700FE86E5 /* Tests_macOSLaunchTests.swift in Sources */,
+				C34B3C4027F20EE700FE86E5 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C34B3C3127F20EE700FE86E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34B3C2127F20EE700FE86E5 /* Waybank (iOS) */;
+			targetProxy = C34B3C3027F20EE700FE86E5 /* PBXContainerItemProxy */;
+		};
+		C34B3C3D27F20EE700FE86E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34B3C2727F20EE700FE86E5 /* Waybank (macOS) */;
+			targetProxy = C34B3C3C27F20EE700FE86E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C34B3C4927F20EE700FE86E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C34B3C4A27F20EE700FE86E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C34B3C4C27F20EE700FE86E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Waybank (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2754F68A23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Waybank--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.waybank.com;
+				PRODUCT_NAME = Waybank;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C34B3C4D27F20EE700FE86E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Waybank (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2754F68A23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Waybank--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.waybank.com;
+				PRODUCT_NAME = Waybank;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34B3C4F27F20EE700FE86E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2754F68A23;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.waybank.com.Waybank;
+				PRODUCT_NAME = Waybank;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C34B3C5027F20EE700FE86E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2754F68A23;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.waybank.com.Waybank;
+				PRODUCT_NAME = Waybank;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C34B3C5227F20EE700FE86E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2754F68A23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.waybank.com.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Waybank (iOS)";
+			};
+			name = Debug;
+		};
+		C34B3C5327F20EE700FE86E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2754F68A23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.waybank.com.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Waybank (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34B3C5527F20EE700FE86E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2754F68A23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.waybank.com.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Waybank (macOS)";
+			};
+			name = Debug;
+		};
+		C34B3C5627F20EE700FE86E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2754F68A23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.waybank.com.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Waybank (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34B3C1927F20EE500FE86E5 /* Build configuration list for PBXProject "Waybank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34B3C4927F20EE700FE86E5 /* Debug */,
+				C34B3C4A27F20EE700FE86E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34B3C4B27F20EE700FE86E5 /* Build configuration list for PBXNativeTarget "Waybank (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34B3C4C27F20EE700FE86E5 /* Debug */,
+				C34B3C4D27F20EE700FE86E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34B3C4E27F20EE700FE86E5 /* Build configuration list for PBXNativeTarget "Waybank (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34B3C4F27F20EE700FE86E5 /* Debug */,
+				C34B3C5027F20EE700FE86E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34B3C5127F20EE700FE86E5 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34B3C5227F20EE700FE86E5 /* Debug */,
+				C34B3C5327F20EE700FE86E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34B3C5427F20EE700FE86E5 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34B3C5527F20EE700FE86E5 /* Debug */,
+				C34B3C5627F20EE700FE86E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		C34B3C6A27F210C900FE86E5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C34B3C5827F2104000FE86E5 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C34B3C5A27F2104000FE86E5 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C34B3C5C27F2104000FE86E5 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		C34B3C5E27F2104000FE86E5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C34B3C6027F2104000FE86E5 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		C34B3C6227F2104000FE86E5 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		C34B3C6427F2104000FE86E5 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		C34B3C6627F2104000FE86E5 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		C34B3C6827F2104000FE86E5 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C34B3C6B27F210C900FE86E5 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C6A27F210C900FE86E5 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		C34B3C7127F2145500FE86E5 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C34B3C5727F2104000FE86E5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C34B3C1627F20EE500FE86E5 /* Project object */;
+}
